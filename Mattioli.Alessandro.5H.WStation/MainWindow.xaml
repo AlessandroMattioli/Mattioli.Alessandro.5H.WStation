@@ -1,0 +1,25 @@
+﻿<Window x:Class="Mattioli.Alessandro._5H.WStation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Mattioli.Alessandro._5H.WStation"
+        mc:Ignorable="d"
+        Title="Mattioli Alessandro - WStation" Height="153.217" Width="691.333" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <Button x:Name="btnCerca" Content="Cerca" HorizontalAlignment="Left" Margin="553,14,0,0" VerticalAlignment="Top" Width="108" Height="23" Click="btnCerca_Click"/>
+        <Label x:Name="lblCitta" Content="Inserisci una Citta" HorizontalAlignment="Left" Margin="7,11,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbxCitta" HorizontalAlignment="Left" Height="23" Margin="124,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="401"/>
+        <Label x:Name="lblTemperatura" Content="Temperatura: " HorizontalAlignment="Left" Margin="54,82,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblVento" Content="Vento: " HorizontalAlignment="Left" Margin="174,82,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblUmidita" Content="Umidità" HorizontalAlignment="Left" Margin="268,82,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblPressione" Content="Pressione: " HorizontalAlignment="Left" Margin="368,82,0,0" VerticalAlignment="Top"/>
+        <Image x:Name="imgMeteo" HorizontalAlignment="Left" Height="35" Margin="10,66,0,0" VerticalAlignment="Top" Width="35"/>
+        <Label x:Name="lblUv" Content="Raggi UV: " HorizontalAlignment="Left" Margin="517,82,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblNomeCitta" Content="Citta: " HorizontalAlignment="Left" Margin="54,53,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblAltitudine" Content="Altitudine: " HorizontalAlignment="Left" Margin="174,53,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblLongitudine" Content="Longitudine: " HorizontalAlignment="Left" Margin="302,53,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.395,0.577"/>
+        <Label x:Name="lblLatitudine" Content="Latitudine: " HorizontalAlignment="Left" Margin="483,53,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
